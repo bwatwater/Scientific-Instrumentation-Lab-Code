@@ -85,7 +85,7 @@ while(1):
     #G/FREQ^2=L
     newL= 9.81/DESFREQrad
     while (DESFREQ>1.06 or DESFREQ<.91):
-        DESFREQ= input('TOO LONG BRO. What Freqency do you want betweeen .91 and 1.06 (Hz)')
+        DESFREQ= input('Error! Frequency outside of range! What Freqency do you want betweeen .91 and 1.06 (Hz)')
         DESFREQ= float(DESFREQ) 
         # choosing the proper length first
         #freq=sqrt(g/l)
